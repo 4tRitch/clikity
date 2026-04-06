@@ -1,0 +1,3 @@
+run:
+  d: cargo run --package clikity --bin clikity
+  c: Remove-Item -Force -Recurse ./target

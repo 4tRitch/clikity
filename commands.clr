@@ -1,0 +1,8 @@
+run:
+  d: pnpm dev
+  c: Remove-Item -Force -Recurse ./dist
+
+build:
+  d: pnpm tauri dev
+  r: pnpm tauri build
+  c: Remove-Item -Force -Recurse ./src-tauri/target/
